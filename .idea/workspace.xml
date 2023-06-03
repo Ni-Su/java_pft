@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="руками">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/MyFiPro.class" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/MyFiPro.class" afterDir="false" />
+    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="добавлены классы">
+      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sandbox/src/main/java/Segment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/MyFiPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/MyFiPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,13 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -125,7 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685593122909</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавлены несколько функций">
+      <created>1685638772184</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685638772184</updated>
+    </task>
+    <task id="LOCAL-00005" summary="добавлены классы">
+      <created>1685640723629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685640723629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,6 +164,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="руками" />
-    <option name="LAST_COMMIT_MESSAGE" value="руками" />
+    <MESSAGE value="добавлены несколько функций" />
+    <MESSAGE value="добавлены классы" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены классы" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/sandbox/src/main/java/MyFiPro.java</url>
+          <line>2</line>
+          <properties class="MyFiPro" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
