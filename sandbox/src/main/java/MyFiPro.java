@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class MyFiPro {
 
 	public static void main(String[] args){
@@ -15,7 +17,7 @@ public class MyFiPro {
 		System.out.println(p1.x + ", " + p1.y + " и " + p2.x + ", " + p2.y);
 
 		Segment seg = new Segment(1, 1, 1, 5);
-		System.out.println(" Длинна отрезка " + seg.distance());
+		System.out.println("Длинна отрезка " + seg.distance());
 	}
 	public static void hello(String someboby){
 		System.out.println("Hello, " + someboby + "!!!");
