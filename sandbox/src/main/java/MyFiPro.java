@@ -1,5 +1,3 @@
-import java.awt.*;
-
 public class MyFiPro {
 
 	public static void main(String[] args){

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="sandbox" target="17" />
-      <module name="sandbox.main" target="17" />
-      <module name="sandbox.test" target="17" />
+      <module name="one_more" target="17" />
+      <module name="one_more.main" target="17" />
+      <module name="one_more.test" target="17" />
+      <module name="two_more" target="17" />
+      <module name="two_more.main" target="17" />
+      <module name="two_more.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

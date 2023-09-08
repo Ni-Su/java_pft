@@ -4,19 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="добавлены классы Point  и  Segment и метод">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/MyFiProTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sandbox/src/test/java/SquareTests.java" afterDir="false" />
+    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="добавлен модуль АдресБук и  тест">
+      <change afterPath="$PROJECT_DIR$/mantis-tests/src/test/java/ru/stqa/pft/mantis/appmanager/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mantis-tests/src/test/java/ru/stqa/pft/mantis/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mantis-tests/src/test/resources/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/addressbook-web-tests.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sandbox/src/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/GroupCreationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/sandbox/src/main/java/MyFiPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/main/java/MyFiPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/src/test/java/MyFiProTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/test/java/MyFiProTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sandbox/src/test/java/SquareTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/sandbox/src/test/java/SquareTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +31,16 @@
     <projectState path="$PROJECT_DIR$/addressbook-web-tests">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/mantis-tests">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/one_more">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/sandbox">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/two_more">
       <ProjectState />
     </projectState>
   </component>
@@ -45,17 +55,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="sandbox" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="sandbox" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -65,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -92,8 +92,10 @@
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft/sandbox/src/main/java/ru/stqa/pfd&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft/addressbook-web-tests/build.gradle&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft/two_more&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/darkhorse/IdeaProjects/java_pft/mantis-tests/src/main/java/org/example/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -102,6 +104,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\darkhorse\IdeaProjects\java_pft\two_more" />
       <recent name="C:\Users\darkhorse\IdeaProjects\java_pft\sandbox\src\main\java\ru\stqa\pft\sandbox" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -111,7 +114,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupCreationTests">
+  <component name="RunManager" selected="Gradle.MyFiProTest">
     <configuration name="MyFiPro (1)" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyFiPro" />
       <module name="sandbox.main" />
@@ -167,7 +170,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="MyFiProTest.testArea" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SquareTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/sandbox" />
@@ -180,7 +183,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;MyFiProTest.testArea&quot;" />
+            <option value="&quot;SquareTests&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -239,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MyFiProTest" />
+        <item itemvalue="Gradle.SquareTests" />
+        <item itemvalue="Gradle.SquareTests.testArea" />
         <item itemvalue="Gradle.GroupCreationTests" />
         <item itemvalue="Gradle.addressbook-web-tests [dependencies]" />
-        <item itemvalue="Gradle.SquareTests.testArea" />
-        <item itemvalue="Gradle.MyFiProTest.testArea" />
-        <item itemvalue="Gradle.MyFiProTest" />
       </list>
     </recent_temporary>
   </component>
@@ -298,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1685809610742</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="добавлен модуль АдресБук и  тест">
+      <created>1686410838822</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686410838822</updated>
+    </task>
+    <task id="LOCAL-00008" summary="добавлен модуль АдресБук и  тест">
+      <created>1686410869612</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686410869612</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -317,6 +334,11 @@
     <MESSAGE value="добавлены несколько функций" />
     <MESSAGE value="добавлены классы" />
     <MESSAGE value="добавлены классы Point  и  Segment и метод" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены классы Point  и  Segment и метод" />
+    <MESSAGE value="добавлен модуль АдресБук и  тест" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлен модуль АдресБук и  тест" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_pft$SquareTests.ic" NAME="SquareTests Coverage Results" MODIFIED="1686412630898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/java_pft$MyFiProTest.ic" NAME="MyFiProTest Coverage Results" MODIFIED="1686412889330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
