@@ -5,6 +5,7 @@ import java.io.Closeable;
 import java.io.IOException;
 import java.net.http.HttpClient;
 import java.util.List;
+import org.apache.http.impl.client.CloseableHttpClient;
 
 
 public class HttpSession {
