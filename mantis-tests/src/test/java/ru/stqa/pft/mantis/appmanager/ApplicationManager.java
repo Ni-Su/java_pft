@@ -44,11 +44,4 @@ public class ApplicationManager {
     public String getProperty(String key) {
         return properties.getProperty(key);
     }
-
-    public FtpHelper ftp() {
-        if (ftp == null) {
-            ftp = new FtpHelper(this);
-        }
-        return fpt;
-    }
 }
