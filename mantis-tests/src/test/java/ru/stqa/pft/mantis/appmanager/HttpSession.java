@@ -8,6 +8,7 @@ import java.util.List;
 import org.apache.http.impl.client.CloseableHttpClient;
 
 
+
 public class HttpSession {
     private CloseableHttpClient httpclient;
     private ApplicationManager app;
