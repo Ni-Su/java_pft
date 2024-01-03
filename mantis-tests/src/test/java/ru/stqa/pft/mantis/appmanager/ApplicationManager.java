@@ -26,9 +26,9 @@ public class ApplicationManager {
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
 
-        if (browser.equals(BrowserType.FIREFOX)) {
+        if (browser.equals(Browser.FIREFOX)) {
             wd = new FirefoxDriver();
-        } else if (browser.equals(BrowserType.Chrome)){
+        } else if (browser.equals(Browser.CHROME)){
             wd = new ChromeDriver();
         }
         wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
