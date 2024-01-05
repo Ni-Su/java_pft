@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="4_3 добавили прокерки по кол-ву элементов в тесты групп">
+    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="3_9 оптимизированы переходы между страницами. Класс НавигейшенХэлпер - добавлены проверки наличия на страницу нужных элементов, для подтверждения нахождения на нужной страницы">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/NavigationHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ContactCreationTests">
+  <component name="RunManager" selected="Gradle.GroupModificationTests.testGroupModification">
     <configuration name="MyFiPro" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFiPro" />
       <module name="sandbox.main" />
@@ -236,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GroupModificationTests.testGroupModification" />
+        <item itemvalue="Gradle.GroupDeletionTests.testGroupDeletion" />
         <item itemvalue="Gradle.ContactCreationTests" />
         <item itemvalue="Gradle.GroupCreationTests" />
-        <item itemvalue="Gradle.GroupDeletionTests.testGroupDeletion" />
         <item itemvalue="Gradle.GroupCreationTests.testGroupCreation" />
-        <item itemvalue="Gradle.GroupModificationTests.testGroupModification" />
       </list>
     </recent_temporary>
   </component>
@@ -379,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704433727805</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="3_9 оптимизированы переходы между страницами. Класс НавигейшенХэлпер - добавлены проверки наличия на страницу нужных элементов, для подтверждения нахождения на нужной страницы">
+      <created>1704434554957</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704434554957</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,7 +417,8 @@
     <MESSAGE value="3-8 добавили классы ContactData, ContactHelper, тесты ContactCreationTests, ContactModificationTests" />
     <MESSAGE value="3-8 доделал чтоб работало классы ContactData, ContactHelper, тесты ContactCreationTests, ContactModificationTests" />
     <MESSAGE value="4_3 добавили прокерки по кол-ву элементов в тесты групп" />
-    <option name="LAST_COMMIT_MESSAGE" value="4_3 добавили прокерки по кол-ву элементов в тесты групп" />
+    <MESSAGE value="3_9 оптимизированы переходы между страницами. Класс НавигейшенХэлпер - добавлены проверки наличия на страницу нужных элементов, для подтверждения нахождения на нужной страницы" />
+    <option name="LAST_COMMIT_MESSAGE" value="3_9 оптимизированы переходы между страницами. Класс НавигейшенХэлпер - добавлены проверки наличия на страницу нужных элементов, для подтверждения нахождения на нужной страницы" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
