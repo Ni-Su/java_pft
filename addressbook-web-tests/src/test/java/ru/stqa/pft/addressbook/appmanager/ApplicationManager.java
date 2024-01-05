@@ -10,8 +10,8 @@ import org.openqa.selenium.remote.Browser;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    private final Browser browser;
     WebDriver wd;
+    private final Browser browser;
     private GroupHelper groupHelper;
     private NavigationHelper navigationHelper;
     private SessionHelper sessionHelper;
@@ -32,15 +32,13 @@ public class ApplicationManager {
         }
         wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
-        wd.get("http://localhost/addressbook/group.php");
+        wd.get("http://localhost/addressbook");
         groupHelper = new GroupHelper(wd);
         navigationHelper = new NavigationHelper(wd);
         sessionHelper = new SessionHelper(wd);
         contactHelper = new ContactHelper(wd);
         sessionHelper.login("admin", "secret");
     }
-
-
 
     public void stop () {
         wd.quit();
