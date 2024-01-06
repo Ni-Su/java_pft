@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="3_10 Реализована проверка и обеспечение выполнения предусловий для тестов групп, сгруппировали методы в дополнительный метод - createGroud, вынесли в класс GroupHelper">
+    <list default="true" id="4ce12b73-5f3b-438f-b928-29bdf7932126" name="Changes" comment="4_4 выбор элемента по порядковому номеру для GroupDelition, GroupModification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/appmanager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupCreationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupDeletionTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/tests/GroupModificationTests.java" afterDir="false" />
     </list>
@@ -108,7 +109,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GroupDeletionTests.testGroupDeletion">
+  <component name="RunManager" selected="Gradle.GroupModificationTests.testGroupModification">
     <configuration name="MyFiPro" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFiPro" />
       <module name="sandbox.main" />
@@ -140,7 +141,7 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="GroupCreationTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GroupCreationTests.testGroupCreation" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/addressbook-web-tests" />
@@ -153,7 +154,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ru.stqa.pft.addressbook.tests.GroupCreationTests&quot;" />
+            <option value="&quot;ru.stqa.pft.addressbook.tests.GroupCreationTests.testGroupCreation&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -238,11 +239,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.GroupDeletionTests.testGroupDeletion" />
-        <item itemvalue="Gradle.GroupHelper.main" />
         <item itemvalue="Gradle.GroupModificationTests.testGroupModification" />
+        <item itemvalue="Gradle.GroupDeletionTests.testGroupDeletion" />
+        <item itemvalue="Gradle.GroupCreationTests.testGroupCreation" />
+        <item itemvalue="Gradle.GroupHelper.main" />
         <item itemvalue="Gradle.ContactCreationTests" />
-        <item itemvalue="Gradle.GroupCreationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -395,7 +396,14 @@
       <option name="project" value="LOCAL" />
       <updated>1704438476379</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="4_4 выбор элемента по порядковому номеру для GroupDelition, GroupModification">
+      <created>1704529234425</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1704529234426</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,7 +433,8 @@
     <MESSAGE value="4_3 добавили прокерки по кол-ву элементов в тесты групп" />
     <MESSAGE value="3_9 оптимизированы переходы между страницами. Класс НавигейшенХэлпер - добавлены проверки наличия на страницу нужных элементов, для подтверждения нахождения на нужной страницы" />
     <MESSAGE value="3_10 Реализована проверка и обеспечение выполнения предусловий для тестов групп, сгруппировали методы в дополнительный метод - createGroud, вынесли в класс GroupHelper" />
-    <option name="LAST_COMMIT_MESSAGE" value="3_10 Реализована проверка и обеспечение выполнения предусловий для тестов групп, сгруппировали методы в дополнительный метод - createGroud, вынесли в класс GroupHelper" />
+    <MESSAGE value="4_4 выбор элемента по порядковому номеру для GroupDelition, GroupModification" />
+    <option name="LAST_COMMIT_MESSAGE" value="4_4 выбор элемента по порядковому номеру для GroupDelition, GroupModification" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
