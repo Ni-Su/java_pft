@@ -17,14 +17,11 @@ public class GroupCreationTests extends TestBase {
         List<GroupData> after = app.getGroupHelper().getGroupList();
         Assert.assertEquals(after.size(), before.size() + 1); //сравниваем размеры списков полученных методом getGroupList()
 
-        int max = 0;
-        for (GroupData g : after) {
-            if (g.getId() > max) {
-                max = g.getId();
-            }
-        }
-        group.setId(max);
+        group.setId(after.stream().max((o1, o2) -> Integer.compare(o1.getId(), o2.getId())).get().getId());
         before.add(group);
         Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));//из списков делаем множества и сравниваем
     }
 }
+//int max1 = after.stream().max((o1, o2) -> Integer.compare(o1.getId(), o2.getId())).get().getId();
+//список превращаем в поток, по потоку пробегается функция сравниватель и находит максимальный элемент,
+//сраниваются объекту ГрупДейта по ID, на выходе группа с макс ID - берём этот ID
