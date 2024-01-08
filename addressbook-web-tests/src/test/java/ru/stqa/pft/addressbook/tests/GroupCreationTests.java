@@ -13,12 +13,12 @@ public class GroupCreationTests extends TestBase {
     public void testGroupCreation() {
         app.goTo().groupPage();
         List<GroupData> before = app.group().list();
-        GroupData group = new GroupData("test1", "test2", "test3");
+        GroupData group = new GroupData().withName("test2");
         app.group().create(group);
         List<GroupData> after = app.group().list();
         Assert.assertEquals(after.size(), before.size() + 1); //сравниваем размеры списков полученных методом getGroupList()
 
-        group.setId(after.stream().max((o1, o2) -> Integer.compare(o1.getId(), o2.getId())).get().getId());
+        group.withId(after.stream().max((o1, o2) -> Integer.compare(o1.getId(), o2.getId())).get().getId());
         before.add(group);
         Assert.assertEquals(new HashSet<Object>(before), new HashSet<Object>(after));//из списков делаем множества и сравниваем
 
