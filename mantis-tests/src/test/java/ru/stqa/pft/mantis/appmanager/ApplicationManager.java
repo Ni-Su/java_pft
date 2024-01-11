@@ -22,7 +22,7 @@ public class ApplicationManager {
         properties = new Properties();
     }
 
-    public void init() throws IOException {
+    public void init() throws IOException { //при вызове метода только загружается конфиг файл
         String target = System.getProperty("target", "local");
         properties.load(new FileReader(new File(String.format("src/test/resources/%s.properties", target))));
         }
@@ -55,7 +55,7 @@ public class ApplicationManager {
             } else if (browser.equals(Browser.CHROME)){
                 wd = new ChromeDriver();
             }
-            wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
+            wd.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
             wd.get(properties.getProperty("web.baseUrl"));
         }
         return wd;

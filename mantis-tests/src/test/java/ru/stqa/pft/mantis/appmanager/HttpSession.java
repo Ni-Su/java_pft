@@ -60,7 +60,8 @@ public class HttpSession {
         HttpGet get = new HttpGet(app.getProperty("web.baseUrl") + "/index.php");  //создаём GET запрос
         CloseableHttpResponse response = httpclient.execute(get);  //выполняем(отправляем) запрос, получаем ответ
         String body = geTextForm(response); //получаем текст при помощи вспомогатеьной функции geTextForm()
-        return body.contains(String.format("<span class=\"italic\"%s/span>", username)); //проверяем что пользователь залогинен
+        return body.contains(String.format("<div class=\"space-10\"></div><div class=\"alert alert-warning\"><p><strong>Warning:</strong> You should disable the default 'administrator' account or change its password.</p></div></div>", username));
+        //return body.contains(String.format("<span class=\"italic\"%s/span>", username)); //проверяем что пользователь залогинен
         //умеет определять какой пользователь сейчас залогинен
     }
 }
