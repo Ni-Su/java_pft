@@ -28,9 +28,9 @@ public class GroupCreationTests extends TestBase {
         GroupData group = new GroupData().withName("test'");
         app.group().create(group);
         assertThat(app.group().count(), equalTo(before.size()));
+
         Groups after = app.group().all();
         //Assert.assertEquals(after.size(), before.size() + 1);//сравниваем размеры списков полученных методом getGroupList()
-
         assertThat(after, equalTo(before));
     }
 }

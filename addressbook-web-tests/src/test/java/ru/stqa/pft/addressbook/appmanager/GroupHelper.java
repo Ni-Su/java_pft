@@ -9,15 +9,12 @@ import ru.stqa.pft.addressbook.model.Groups;
 import java.util.List;
 
 public class GroupHelper extends HelperBase {
-
     public GroupHelper (WebDriver wd) {
         super(wd);
     }
-
     public void returnToGroupPage () {
         click(By.linkText("group page"));
     }
-
     public void submitGroupCreation() {
         click(By.name("submit"));
     }

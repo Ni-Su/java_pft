@@ -12,25 +12,24 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     WebDriver wd;
     private final Browser browser;
-    private GroupHelper groupHelper;
     private NavigationHelper navigationHelper;
-    private SessionHelper sessionHelper;
+    private GroupHelper groupHelper;
     private ContactHelper contactHelper;
+    private SessionHelper sessionHelper;
 
 
-    public ApplicationManager(Browser browser) {
+    public ApplicationManager (Browser browser) {
         this.browser = browser;
     }
 
     public void init () {
-         if (browser.equals( Browser.FIREFOX)) {
+        if (browser.equals(Browser.FIREFOX)) {
             wd = new FirefoxDriver();
-        } else if (browser.equals(Browser.CHROME)){
+        } else if (browser.equals(Browser.CHROME)) {
             wd = new ChromeDriver();
         } else if (browser.equals(Browser.IE)) {
             wd = new InternetExplorerDriver();
         }
-        wd = new FirefoxDriver();
         wd.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
         wd.get("http://localhost/addressbook");
         groupHelper = new GroupHelper(wd);
@@ -47,14 +46,13 @@ public class ApplicationManager {
     public GroupHelper group () {
         return groupHelper;
     }
-    public ContactHelper contact() {
-        return  contact();
+
+    public ContactHelper contact () {
+        return contactHelper;
     }
 
     public NavigationHelper goTo () {
         return navigationHelper;
     }
-
-    public ContactHelper getContactHelper () { return contactHelper;
-    }
 }
+
